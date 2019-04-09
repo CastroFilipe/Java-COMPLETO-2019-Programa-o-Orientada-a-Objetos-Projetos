@@ -21,6 +21,10 @@ public class Trabalhador {
 		this.departamento = departamento;
 	}
 	
+	public String getNome() {
+		return this.nome;
+	}
+	
 	public void adicionarContrato(ContratoPorHora contrato) {
 		this.contratos.add(contrato);
 	}
@@ -46,7 +50,17 @@ public class Trabalhador {
 		}
 		
 		
-		return 0.0;
+		return soma;
+	}
+
+	@Override
+	public String toString() {
+		return "-- Dados do trabalhador -- \n"
+				+ "nome=" + nome 
+				+ ", nivel=" + nivel 
+				+ ", salarioBase=" + salarioBase 
+				+ ", departamento=" + departamento.getNome() 
+				+ "\n contratos= " + contratos;
 	}
 	
 	
