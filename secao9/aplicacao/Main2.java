@@ -8,7 +8,7 @@ import java.util.Scanner;
 import entidades.Funcionario;
 import entidades.FuncionarioTerceirizado;
 
-public class Main {
+public class Main2 {
 
 	public static void main(String[] args) {
 		List<Funcionario> listaDeFuncionarios = new ArrayList<Funcionario>();
