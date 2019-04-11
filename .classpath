@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="secao8"/>
 	<classpathentry kind="src" path="secao9"/>
 	<classpathentry kind="src" path="secao10"/>
+	<classpathentry kind="src" path="secao13"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="Projeto Integracao/bin"/>
 </classpath>
